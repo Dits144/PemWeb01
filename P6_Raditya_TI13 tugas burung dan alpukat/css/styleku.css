@@ -1,0 +1,32 @@
+body{
+    background-color: wheat;
+}
+#header{
+    margin: auto;
+    text-align: center;
+    background-color: chocolate;
+}
+#header h1{
+    color: blue;
+    font-size: 400%;
+}
+#header blockquote{
+    background-color: yellow;
+    font-size: 150%;
+}
+.bar{
+    text-align: center;
+    margin: 1%;
+    font-size: 150%;
+}
+.gambar{
+    margin-left: 21%;
+}
+.isi p b{
+    font-size: 500%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+#profil h3{
+    font-size: 150%;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DITsTROO</title>
+    <style>
+    body{
+        background-color: #D3D3D3
+    }
+    
+    li {
+      padding: 1rem 1rem;
+    }
+
+    .content {
+      display: flex;
+    }
+
+    .gambar {
+      padding: 40px 5px 5px 5px;
+    }
+
+    img {
+      border-radius: 25px;
+    }
+
+    .form {
+      padding: 50px 10px 10px 130px;
+    }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <br>
+    
+    <table style="background-color:white" align="center" width="85%" height="5px" border="3">
+        <nav>
+            <tr>
+                <td align="center" width="20%">Home</td>
+                <td align="center" width="20%">Generate Link</td>
+                <td align="center" width="20%">Transaction History</td>
+                <td align="center" width="20%">Policy</td>
+                <td align="center" width="20%">Logout</td>
+            </tr>
+        </nav>
+    </table>
+    <div class="content">
+        <div class="Gambar">
+            <br>
+        <img src="Jaketvarsity.png" alt="" width="">
+    </div>
+    <form action="Hasil.php" method="GET">
+        <div class="form">    
+        <table>
+                <tr>
+                    <td><label for="id_name">Title Here :</label>
+                    </td>
+                    <input type="text" name="title" placeholder="Jaket Varsity">
+                </tr>
+                <tr>
+                    <td>
+                        :
+                    <label for="Description">Desciption :</label>
+                    </td>
+                </tr>
+                <td>
+                    :
+                    <textarea name="Description" id="id_description" cols="40" rows="5" placeholder="Year:2000         Model:        Condition:"></textarea>
+                </td>
+            <tr>
+                <td>
+                        <label for="id_number">Account Number :</label>
+                </td>
+            </tr>
+            <td>
+                :
+                <input type="tel" name="number">
+            </td>
+            <tr>
+                <td>
+                        <label for="id_bank">Bank :</label>
+                </td>
+            </tr>
+            <td>
+                :
+                <select name="bank" id="id_bank" size="1">
+                        <option>BCA</option>
+                        <option>MANDIRI</option>
+                        <option>BNI</option>
+                        <option>BRI</option>
+                        <option>BTN</option>
+                        </select>
+            </td>
+            <tr>
+                <td>
+                        <label for="id_email">Account Holder :</label>
+                </td>
+            </tr>
+            <td>
+                :
+                <input type="email" name="email">
+            </td>
+            <tr>
+                <td>
+                        <label for="id_transaction">Transaction :</label>
+                        <input type="number" id="id_transaction" name="transaction" min="1" max="99">
+                </td>
+            </tr>
+           <td style="color: green">*if the transaction is for 3 person, choose 3 from the drop-down list </td>
+            <tr>
+                <td></td>
+                <td style="color: green"> <input type="checkbox" name="sendmobile" value="sendtomobilephone"> Send to Mobile Phone</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="color: green">
+                        <input type="checkbox" name="sendmobile" value="sendtomobilephone"> Send to Mobile Phone
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="color :green">
+                        <input type="checkbox" name="sendemail" value="sendtoemail">Send to Email
+                </td>
+            </tr>
+            <tr>
+                <td>     
+                </td>
+            </tr>
+            <td>
+                :
+                <input type="tel" name="mobilephone">
+            </td>
+           <tr>
+               <td>
+                    <label for="id_sendemail">Send to Email :</label>
+               </td>
+           </tr>
+           <td>
+               :
+               <input type="email" name="sendemail">
+           </td>
+            
+            <button type="submit" name="submit" value="submit">Generate Nobr Link</button>
+            
+</table>
+</div>
+</form>
+</div>
+    <label for="myfile">Upload Gambar:</label>
+                            <input type="file" id="myfile" name="myfile">
+    
+   
+   
+</body>
+</html>

@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    grid-template-columns: 20% 60% ;
+    grid-template-rows: 300% 870% 300%;
+  }
+  
+.container > div {
+    display: flex;
+}
+
+body{
+    margin: 0;
+}
+
+
+nav{
+    grid-column: 1/2;
+    grid-row: 1/4;
+    background: pink;
+}
+
+header{
+    grid-column: 2/4;
+    background: khaki;
+    
+}
+
+article{
+    grid-column: 2/3;
+    
+}
+
+aside{
+    grid-column: 3/4;
+    background: aqua;
+}
+
+footer{
+    grid-column: 2/4;
+    background: khaki;
+    padding-bottom: 20hv;
+}

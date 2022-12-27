@@ -1,0 +1,35 @@
+.hijau{
+    background-color: green;
+    border: 1px solid black;
+    width: 97%;
+    height: 200px;
+    margin: 2%;
+}
+.kuningatas{
+    background-color: yellow;
+    height: 190px;
+    width: 190px;
+    margin: 2%;
+    border: 1px solid black;
+}
+.oren{
+    background-color: rgb(255, 145, 0);
+    border: 1px solid black;
+    width: 1100px;
+    height: 190px;
+    margin-left: 150%;
+}
+.kuningbawah{
+    background-color: yellow;
+    height: 190px;
+    width: 190px;
+    margin: 2%;
+    border: 1px solid black;
+}
+.biru{
+        background-color: rgb(0, 140, 255);
+        border: 1px solid black;
+        width: 1100px;
+        height: 190px;
+        margin-left: 150%;
+}
